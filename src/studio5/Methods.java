@@ -96,7 +96,10 @@ public class Methods {
 	 * @return and array of size that's filled with value
 	 */
 	public static int[] filledArray(int length, int value) {
-		int[] values = null; // FIXME: Create an array of the appropriate size
+		int [] values = new int [length]; // FIXME: Create an array of the appropriate size
+		for(int i = 0; i<values.length; i++) {
+			values[i] = value; 
+		}
 		// TODO: Finish this method
 
 		
