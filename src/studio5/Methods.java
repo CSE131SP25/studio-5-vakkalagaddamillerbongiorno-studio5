@@ -107,6 +107,13 @@ public class Methods {
 		return values;
 	}
 
+	public static double arrayMean(int[] values) {
+		double mean = 0;
+		int sum = arraySum(values);
+		mean  = (double) sum/values.length;
+		
+		return mean;
+	}
 	// TODO: Create an arrayMean method which accepts an int array of values parameter.
 	// TODO: Create a JavaDoc comment for the arrayMean method.
 
