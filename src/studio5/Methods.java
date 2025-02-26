@@ -111,7 +111,6 @@ public class Methods {
 		double mean = 0;
 		int sum = arraySum(values);
 		mean  = (double) sum/values.length;
-		
 		return mean;
 	}
 	// TODO: Create an arrayMean method which accepts an int array of values parameter.
